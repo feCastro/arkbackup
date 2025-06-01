@@ -10,7 +10,8 @@ rem Verifica se o usuário deixou em branco; se sim, usa o valor padrão de 150 
 if "%timeout%"=="" set timeout=150
 
 rem Inicia o jogo via Steam
-start "" "steam://rungameid/2399830"
+start "" "C:\Program Files (x86)\Steam\steamapps\common\ARK Survival Ascended\ShooterGame\Binaries\Win64\ArkAscended.exe" -culture=en
+@REM start "" "steam://rungameid/2399830"
 @REM start "" "steam://rungameid/2399830//-nobattleye"
 
 rem Enquanto o jogo estiver rodando, executa o backup
